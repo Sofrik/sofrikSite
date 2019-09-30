@@ -4,6 +4,7 @@ theme = ["hugo-coder"]
 languagecode = "en"
 defaultcontentlanguage = "en"
 
+
 paginate = 20
 canonifyurls = true
 
@@ -11,7 +12,7 @@ pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-disqusShortname = "Alexey Sofronov"
+disqusShortname = "Comments"
 
 [params]
     author = "Alexey Sofronov"
