@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2019-10-01T00:49:40+03:00
 title = "Первый пост"
 description = "Первый пост"
