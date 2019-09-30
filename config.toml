@@ -1,8 +1,8 @@
-baseurl = "http://www.example.com"
+baseurl = "https://hungry-mayer-629540.netlify.com"
 title = "Alexey Sofronov"
-theme = "hugo-coder"
+theme = ["hugo-coder"]
 languagecode = "en"
-defaultcontentlanguage = "ru"
+defaultcontentlanguage = "en"
 
 paginate = 20
 canonifyurls = true
