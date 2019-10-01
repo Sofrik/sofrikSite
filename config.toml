@@ -1,4 +1,4 @@
-baseurl = "https://sofrik.ru"
+baseurl = "https://hungry-mayer-629540.netlify.com"
 title = "Alexey Sofronov"
 theme = ["hugo-coder"]
 languagecode = "en"
