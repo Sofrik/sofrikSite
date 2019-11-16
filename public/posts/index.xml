@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Alexey Sofronov</title>
+    <link>https://sofrik.ru/posts/</link>
+    <description>Recent content in Posts on Alexey Sofronov</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 16 Nov 2019 23:05:24 +0300</lastBuildDate>
+    
+	<atom:link href="https://sofrik.ru/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Меняем фокусный цвет UITabBarItem</title>
+      <link>https://sofrik.ru/posts/tabbaritem_color_post/</link>
+      <pubDate>Sat, 16 Nov 2019 23:05:24 +0300</pubDate>
+      
+      <guid>https://sofrik.ru/posts/tabbaritem_color_post/</guid>
+      <description>Привет!
+Появилась задача поменять фокусный цвет UITabBarItem.
+Попробовав перебрать все доступные и похожие на backgroundColor, и все что связано у tabBar и UITabBarItem с color атрибуты, отчалялся и пошел в Google.
+Перекопав половину Google-a, нашел на самом его дне, единственное и верное решение, им и делюсь.
+tabBar.standardAppearance.selectionIndicatorTintColor = .yourColor
+Вот так, на первый взгляд непремечательный параметр, делает то чего от него не ждешь.</description>
+    </item>
+    
+    <item>
+      <title>Первый пост</title>
+      <link>https://sofrik.ru/posts/my-first-post/</link>
+      <pubDate>Tue, 01 Oct 2019 00:49:40 +0300</pubDate>
+      
+      <guid>https://sofrik.ru/posts/my-first-post/</guid>
+      <description>Всем привет!
+Блог создал больше для себя, чтобы не потерять мысли и лайфаки которые узнаю в процессе разработки различных продуктов.
+Постараюсь регулярно что нибудь постить :)</description>
+    </item>
+    
+  </channel>
+</rss>

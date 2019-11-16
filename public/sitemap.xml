@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://sofrik.ru/</loc>
+    <lastmod>2019-11-16T23:05:24+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sofrik.ru/posts/</loc>
+    <lastmod>2019-11-16T23:05:24+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sofrik.ru/posts/tabbaritem_color_post/</loc>
+    <lastmod>2019-11-16T23:05:24+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sofrik.ru/about/</loc>
+    <lastmod>2019-10-01T00:58:16+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sofrik.ru/posts/my-first-post/</loc>
+    <lastmod>2019-10-01T00:49:40+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sofrik.ru/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sofrik.ru/tags/</loc>
+  </url>
+  
+</urlset>
