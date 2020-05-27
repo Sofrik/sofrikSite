@@ -1,10 +1,10 @@
 +++ 
 draft = false
-date = 2020-05-27T18:49:49+03:00
+date = 2020-05-27T18:49:50+03:00
 title = "UIWindow cover everything"
-description = ""
+description = "Добавляем любую инфу поверх всего приложения!"
 slug = "" 
-tags = [swift, uiwindow]
+tags = []
 categories = []
 externalLink = ""
 series = []
