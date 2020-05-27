@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>swift on Alexey Sofronov</title>
+    <link>https://sofrik.ru/tags/swift/</link>
+    <description>Recent content in swift on Alexey Sofronov</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 12 Feb 2020 00:05:51 +0300</lastBuildDate>
+    
+	<atom:link href="https://sofrik.ru/tags/swift/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Парсим JSON с переносами</title>
+      <link>https://sofrik.ru/posts/parse-json-with-n/</link>
+      <pubDate>Wed, 12 Feb 2020 00:05:51 +0300</pubDate>
+      
+      <guid>https://sofrik.ru/posts/parse-json-with-n/</guid>
+      <description>Привет!
+Давно не писал, снова появилась задача отобразить длинный текст в UITextField на tvOS.
+Текст приходит аля:
+{message: &amp;ldquo;\Парам-пампам \n \r \t \\&amp;ldquo;}
+Естественно если это отдать в JSONDecoder то он выплюнет ошибку.
+Решение:
+var json = try? JSONSerialization.jsonObject(with: data, options: []) if json == nil, var str = String(bytes: data, encoding: .utf8) { str = str.replacingOccurrences(of: &amp;#34;\n&amp;#34;, with: &amp;#34;\\n&amp;#34;) str = str.replacingOccurrences(of: &amp;#34;\r&amp;#34;, with: &amp;#34;\\r&amp;#34;) str = str.replacingOccurrences(of: &amp;#34;\t&amp;#34;, with: &amp;#34;\\t&amp;#34;) str = str.</description>
+    </item>
+    
+  </channel>
+</rss>

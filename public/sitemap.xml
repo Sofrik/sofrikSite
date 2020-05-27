@@ -3,13 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://sofrik.ru/posts/window-covereverything/</loc>
+    <lastmod>2020-05-27T18:49:49+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://sofrik.ru/</loc>
-    <lastmod>2019-11-16T23:05:24+03:00</lastmod>
+    <lastmod>2020-05-27T18:49:49+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://sofrik.ru/posts/</loc>
-    <lastmod>2019-11-16T23:05:24+03:00</lastmod>
+    <lastmod>2020-05-27T18:49:49+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sofrik.ru/tags/json/</loc>
+    <lastmod>2020-02-12T00:05:51+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sofrik.ru/tags/parse/</loc>
+    <lastmod>2020-02-12T00:05:51+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sofrik.ru/tags/swift/</loc>
+    <lastmod>2020-02-12T00:05:51+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sofrik.ru/tags/</loc>
+    <lastmod>2020-02-12T00:05:51+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sofrik.ru/posts/parse-json-with-n/</loc>
+    <lastmod>2020-02-12T00:05:51+03:00</lastmod>
   </url>
   
   <url>
@@ -29,10 +59,6 @@
   
   <url>
     <loc>https://sofrik.ru/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://sofrik.ru/tags/</loc>
   </url>
   
 </urlset>

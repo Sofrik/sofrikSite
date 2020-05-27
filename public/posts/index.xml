@@ -6,10 +6,37 @@
     <description>Recent content in Posts on Alexey Sofronov</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 16 Nov 2019 23:05:24 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2020 18:49:49 +0300</lastBuildDate>
     
 	<atom:link href="https://sofrik.ru/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title></title>
+      <link>https://sofrik.ru/posts/window-covereverything/</link>
+      <pubDate>Wed, 27 May 2020 18:49:49 +0300</pubDate>
+      
+      <guid>https://sofrik.ru/posts/window-covereverything/</guid>
+      <description>Привет!
+Озадачил себя отображением какой либо информации поверх ВСЕХ окон в приложении. Например UILabel, чтобы сообщать что версия DEBUG.
+class ViewController: UIViewController { var coveringWindow: UIWindow? func coverEverything() { coveringWindow = UIWindow(frame: (view.window?.frame)!) if let coveringWindow = coveringWindow { coveringWindow.windowLevel = UIWindow.Level.alert + 1 coveringWindow.isHidden = false } } } Нашел вот такое решение, меняйте backgroundColor, добавляйте UILabel и отображайте нужную вам инфу в любом месте приложения.
+P.S естественно вызывать все это нужно в rootViewController</description>
+    </item>
+    
+    <item>
+      <title>Парсим JSON с переносами</title>
+      <link>https://sofrik.ru/posts/parse-json-with-n/</link>
+      <pubDate>Wed, 12 Feb 2020 00:05:51 +0300</pubDate>
+      
+      <guid>https://sofrik.ru/posts/parse-json-with-n/</guid>
+      <description>Привет!
+Давно не писал, снова появилась задача отобразить длинный текст в UITextField на tvOS.
+Текст приходит аля:
+{message: &amp;ldquo;\Парам-пампам \n \r \t \\&amp;ldquo;}
+Естественно если это отдать в JSONDecoder то он выплюнет ошибку.
+Решение:
+var json = try? JSONSerialization.jsonObject(with: data, options: []) if json == nil, var str = String(bytes: data, encoding: .utf8) { str = str.replacingOccurrences(of: &amp;#34;\n&amp;#34;, with: &amp;#34;\\n&amp;#34;) str = str.replacingOccurrences(of: &amp;#34;\r&amp;#34;, with: &amp;#34;\\r&amp;#34;) str = str.replacingOccurrences(of: &amp;#34;\t&amp;#34;, with: &amp;#34;\\t&amp;#34;) str = str.</description>
+    </item>
     
     <item>
       <title>Меняем фокусный цвет UITabBarItem</title>
